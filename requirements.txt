@@ -1,0 +1,31 @@
+# Core app
+streamlit==1.25.0
+langchain
+langgraph
+langchain-community
+openai
+python-dotenv
+
+# Document parsing
+pymupdf
+camelot-py[cv]
+pdfplumber
+pytesseract
+pillow
+
+# Embeddings & vector DB
+sentence-transformers
+faiss-cpu
+
+# OCR (auto installs correct torch version)
+easyocr
+
+# PyTorch 
+torch
+torchvision
+torchaudio
+
+langchain-openai
+
+
+
