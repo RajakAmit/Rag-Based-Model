@@ -1,6 +1,6 @@
 📄 RAG-based PDF Q&A System (LangGraph + OpenAI)
 
-This project implements an advanced Retrieval-Augmented Generation (RAG) system using LangGraph, FAISS, and OpenAI GPT models. It allows you to upload PDF documents (text + tables) and ask questions. The system extracts relevant chunks from PDFs, embeds them, retrieves context, and generates accurate, structured answers using LLMs.
+This project implements an advanced Retrieval-Augmented Generation (RAG) system using LangGraph, FAISS, and OpenAI GPT models. It allows to upload PDF documents (text + tables) and ask questions. The system extracts relevant chunks from PDFs, embeds them, retrieves context, and generates accurate, structured answers using LLMs.
 
 🚀 Features
 
@@ -124,17 +124,6 @@ Generate: LLM generates structured answer using retrieved context.
 
 UI: User sees answer + context in Streamlit app.
 
-📖 Example
-
-Question:
-"What is the total revenue mentioned in Report.pdf?"
-
-Retrieved Context:
-Rows extracted from PDF financial table.
-
-Answer:
-"The total revenue reported is 12.4M USD (FY2022)."
-
 ✅ Running the App
 
 From project root:
@@ -144,9 +133,14 @@ streamlit run app.py
 
 Upload PDFs in .pdf format.
 
-Type your question in the input box.
+Type question in the input box.
 
 Get AI-generated answers instantly.
+
+Output Result
+<img width="1812" height="877" alt="Screenshot 2025-08-26 204145" src="https://github.com/user-attachments/assets/310e1705-ea4b-441f-ba7c-134fe7e8d552" />
+<img width="1832" height="861" alt="Screenshot 2025-08-26 204115" src="https://github.com/user-attachments/assets/755d831f-0de7-496f-bd0f-11bb1c490857" />
+
 
 🛠 Future Improvements
 
