@@ -18,18 +18,6 @@ Streamlit UI: Interactive web interface for PDF upload and question answering.
 
 Multi-PDF Support: Handles multiple PDFs simultaneously.
 
-📂 Project Structure
-Rag_Model_ML/
-│── .env                    # OpenAI API Key
-│── app.py                  # Streamlit UI
-├── src/
-│   ├── extractor.py         # Extracts text & tables from PDFs
-│   ├── embedder.py          # Embeddings + FAISS index
-│   ├── retriever.py         # Retrieves top-k relevant chunks
-│   ├── graph_builder.py     # LangGraph workflow (Embed → Retrieve → Generate)
-│   └── generator.py         # OpenAI GPT response generation
-├── data/                    # Uploaded PDF files
-└── requirements.txt
 
 🔑 Configuration
 
@@ -138,8 +126,9 @@ Type question in the input box.
 Get AI-generated answers instantly.
 
 Output Result
-<img width="1812" height="877" alt="Screenshot 2025-08-26 204145" src="https://github.com/user-attachments/assets/310e1705-ea4b-441f-ba7c-134fe7e8d552" />
 <img width="1832" height="861" alt="Screenshot 2025-08-26 204115" src="https://github.com/user-attachments/assets/755d831f-0de7-496f-bd0f-11bb1c490857" />
+<img width="1812" height="877" alt="Screenshot 2025-08-26 204145" src="https://github.com/user-attachments/assets/310e1705-ea4b-441f-ba7c-134fe7e8d552" />
+
 
 
 🛠 Future Improvements
